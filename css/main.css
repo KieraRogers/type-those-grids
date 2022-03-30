@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
-  font-family: Merriweather, serif;
+  font-family: "Merriweather", serif;
 }
 
 *, *::before, *::after {
@@ -18,13 +18,12 @@ h1, h2, dt {
 }
 
 h1 {
-  margin-bottom: 2rem;
+  margin: 1.5rem 1rem;
   font-size: 1.8rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  padding: 1rem;
 }
 
 .banner {
@@ -70,5 +69,5 @@ figure {
 }
 
 figcaption {
-  padding: 1rem;
+  padding: 0 1rem;
 }
