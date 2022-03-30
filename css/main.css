@@ -54,12 +54,16 @@ div .text {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 4rem;
+  grid-template-rows: 1fr
 }
 
+img {
+  width: 100%;
+}
 
 figure {
   margin: 0;
+  gri
 }
 
 figcaption {
