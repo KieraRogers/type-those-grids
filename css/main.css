@@ -54,7 +54,10 @@ div .text {
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr
+  grid-template-rows: 1fr;
+  grid-template-areas:
+    "main main main";
+  padding-top: .75rem;
 }
 
 img {
@@ -63,9 +66,8 @@ img {
 
 figure {
   margin: 0;
-  gri
 }
 
 figcaption {
-  padding: 1.5rem 1rem;
+  padding: 1rem 1rem;
 }
