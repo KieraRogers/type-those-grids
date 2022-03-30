@@ -31,7 +31,7 @@ h2 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: .75rem
+  gap: .75rem;
 }
 
 .banner img {
@@ -58,6 +58,7 @@ main {
   grid-template-areas:
     "main main main";
   padding-top: .75rem;
+  gap: .75rem;
 }
 
 img {
@@ -69,5 +70,5 @@ figure {
 }
 
 figcaption {
-  padding: 1rem 1rem;
+  padding: 1rem;
 }
