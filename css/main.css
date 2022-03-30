@@ -38,6 +38,9 @@ main {
 div img {
   grid-area: "banner";
   max-width: inherit;
+}
+
+img {
   width: 100%;
 }
 
