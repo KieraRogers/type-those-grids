@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Merriweather", serif;
+  padding: 0;
+  margin:0;
+}
+
+h1, h2, dt {
+  font-style: italic;
+}
+
+h1 {
+  font-size: 1.8rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "banner" "banner" "banner"
+    "box1 box2 box3";
+  gap: .75rem;
+}
+
+div > img {
+  grid-area: "banner";
+  max-width: inherit;
+  width: 100%;
+}
