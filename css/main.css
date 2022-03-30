@@ -30,13 +30,13 @@ main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
-    "banner" "banner" "banner"
+    "banner banner banner"
     "box1 box2 box3";
   gap: .75rem;
 }
 
 div img {
-  grid-area: "banner";
+  grid-area: banner;
   max-width: inherit;
 }
 
@@ -50,4 +50,15 @@ header h2, p {
 
 figure {
   margin: 0;
+}
+
+figcaption {
+  padding: 1.5rem 1rem;
+}
+
+.text {
+  grid-area: banner;
+  color: #fff;
+  padding: 1.5rem 1rem;
+  align-self: end;
 }
