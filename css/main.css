@@ -18,6 +18,7 @@ h1, h2, dt {
 }
 
 h1 {
+  margin-bottom: 2rem;
   font-size: 1.8rem;
 }
 
@@ -34,8 +35,16 @@ main {
   gap: .75rem;
 }
 
-div > img {
+div img {
   grid-area: "banner";
   max-width: inherit;
   width: 100%;
+}
+
+header h2, p {
+  margin: 0;
+}
+
+figure {
+  margin: 0;
 }
